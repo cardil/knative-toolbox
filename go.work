@@ -1,8 +1,9 @@
-go 1.21
+go 1.22.0
 
 use (
 	.
 	magetasks
 	provenance-generator
 	release-jobs-syncer
+	codegen/schema
 )
